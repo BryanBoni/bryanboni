@@ -1,10 +1,150 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-	<meta charset="utf-8" />
-	<title> lol </title>
-</head>
-<body>
-	hello world
-</body>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <link href = "css/bootstrap.min.css" rel = "stylesheet" type = "text/css"/>
+        <link href = "css/bootstrap-theme.min.css" rel = "stylesheet" type = "text/css"/>
+        <!-- ne pas oublier de changer avec la version.min pour le site en ligne -->
+        <link href = "css/tuto.css" rel = "stylesheet" type = "text/css"/>
+        <link href="view/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>        
+        <title></title>
+    </head>
+    <body>
+       <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" data-toggle="tab" href="#accueil">Accueil</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav ">
+                <li><a data-toggle="tab" href="#parcours">Parcours <span class="sr-only">(current)</span></a></li>
+                <li><a data-toggle="tab" href="#projet">Projets</a></li>
+                <li><a data-toggle="tab" href="#interet">Centres d'intérêts</a></li>
+                <li><a data-toggle="tab" href="#contact">Me joindre</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+        <div class = "container">
+           
+                
+                <div class = "tab-content">
+               
+                    <!-- page d'accueil -->
+                       <div id = "accueil" class = "tab-pane fade in active">
+                        
+                           <div class = "row"><div class = "col-lg-12"><h1> Accueil </h1></div></div><br />
+                           <div id = "ident">
+                           <div class = "row"><div class = "col-lg-10 col-lg-offset-2 col-xs-10 col-xs-offset-2 col-sm-10 col-sm-offset-2 col-md-10 col-md-offset-2"><h3>Bryan Boni</h3></div></div>
+                           <div class = "row">
+                               <div class = "col-lg-2 col-lg-offset-2 col-xs-2 col-xs-offset-2 col-sm-2 col-sm-offset-2 col-md-2 col-md-offset-2">  
+                                   <p><b>
+                                       Âge  :<br />
+                                       Tél  :<br />
+                                       Mail :<br /> 
+                                       Adresse :<br />
+                                   </b></p>
+                               </div>
+                               <div class = "col-lg-4 col-xs-4 col-sm-4 col-md-4">
+                                   <p>
+                                       19 ans (30/12/1996) <br />
+                                       06 68 54 11 06 <br />
+                                       bryan.boni@univ-lyon1.fr<br />
+                                       32 rue Baron Chaurand,<br />
+                                       Saint Génis Laval, 69230.
+                                   </p>
+                               </div>
+                               <div class = "col-lg-2 col-xs-2 col-sm-2 col-md-2">
+                                   <img src="moi.png" class="img-thumbnail" alt="Moi" width="100%" height="100%"/>
+                               </div>
+                           </div>
+                           </div>
+                           <hr />
+                       </div>
+                
+                    
+                    <!-- page sur mon parcours perso -->
+                    <div id="parcours" class="tab-pane fade">
+                        <div class = "row"><h1> Mon Parcours </h1></div><br />
+                        <div class="row">
+                            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                                <p>
+                                    <b>2011-2014 : </b> Depuis que je suis entrée au lycée, mon rapport avec l'informatique est devenu plus prononcé, ce qui m'a poussé à faire par la suite 
+                                    un BAC STI2D (Sciences et Technologie de l'industrie et du Développement Durable) option SIN (Système Informatique et Numérique), afin d'en apprendre plus
+                                    à ce sujet et décider si j'aller poursuivre sur cette voie dans le futur.
+                                    <br /><br />
+                                    <b>2014-2016 : </b>Suite à l'obtention de mon BAC STI2D mention <b> bien </b> j'ai pu accéder l'iut informatique de lyon 1, où je suis en  cours d'obtention d'un<b> DUT informatique</b>.
+                                    Cette formation m'a permis d'en découvrir plus sur les divers métiers de l'informatique, ainsi qu'une vue sur un monde encore plus grand que je ne le pensais et dont les divers sujets le concernant
+                                    étaient, pour la plus part, très intéressants.
+                                    <br /><br />
+                                    <b>Dans le futur :</b> J'aimerai poursuivre ma formation par une 3ième année de licence et une année en master pro, afin de faire une formation à BAC +5 chez GAMAGORA dans la programmation de jeux vidéo et
+                                    pouvoir réaliser mon rêve de devenir développeur de<b> jeux vidéo</b>. Et si je découvre une autre voie plus intéressante que celle-ci en master pro je pourrai la rejoindre après la première année.
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    
+                    <!-- page Projet -->
+                    <div id = "projet" class = "tab-pane fade">
+                        <div class = "row"><h1> Mes Projets </h1></div><br />
+                        <div class = "row">
+                            <div class = "col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                                
+                                    Voici une liste de quelques projets que j'ai réalisés (à plusieurs ou tout seul), qui me tiennes à coeur :<br /><br />  
+                                    
+                                <h3>Poster sur le pathfinding</h3>
+                                <br />
+                                <center><img src="moi.png" class="img-thumbnail" alt="Moi" width="150px" height="150px"/></center>
+                                <!--<p>
+                                    Ici un poster sur le pathfinding en générale, dans ce projet j'ai réalisé la partie graphique et l'intégration des textes.
+                                </p>-->
+                                <br />
+                                <h3>Création d'un jeu vidéo</h3>
+                                <br />
+                            </div> 
+                        </div>
+                    </div>
+
+                    
+                    <!-- page centres d'intérêts -->
+                    <div id = "interet" class = "tab-pane fade">
+                        <div class = "row"><h1> Mes Centres d'intérêts </h1></div><br />
+                        <div class = "row">
+                            <div class = "col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                                <p>Some content in menu 2.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                    <!-- page de contact -->
+                    <div id="contact" class="tab-pane fade">
+                        <div class = "row"><h1> Me joindre </h1></div><br />
+                        <div class = "row">
+                            <div class = "col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                                <p>Some content in menu 2.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+         
+        
+        </div>
+    </body>
 </html>
